@@ -193,5 +193,6 @@ ENV/
 # ignore the dump files
 
 dump/*.txt
+notebook/*.ipynb
 
 # End of https://www.gitignore.io/api/osx,python,pycharm
