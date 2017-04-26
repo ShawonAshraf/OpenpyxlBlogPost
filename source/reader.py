@@ -17,8 +17,10 @@ for i in range(1, maxRows + 1):
 
     for j in range(1, maxCol + 1):
         outputFile.write(sheet.cell(row=i, column=j).value + '\n')
+    outputFile.close()
 
-    print('Written file {}'.format(i))
+    # just checking for a count of the files actually!
+    print('Written file number :  {}'.format(i))
 
 
-print('Done Parsing')
+print('Done writing your business card hooman!')
